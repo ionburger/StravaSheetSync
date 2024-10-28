@@ -22,4 +22,4 @@ StravaSheetSync may log anonymous user data, such as non-identifiable activity p
 You can delete your account at any time through the StravaSheetSync website, which will remove all associated data from our servers. You may also email ian.turner.burgess@gmail.com with your account information to request data removal or review. All requests will be honored within one month.
 5. Changes to Privacy Policy
 
-This Privacy Policy may be updated periodically. Any changes will be posted on this page, and continued use of StravaSheetSync indicates acceptance of the updated Privacy Policy.
+This Privacy Policy may be updated periodically. Any changes will be posted on this page, and continued use of StravaSheetSync indicates acceptance of the updated Privacy Policy.a
