@@ -1,25 +1,20 @@
-Privacy Policy
+StravaSheetSync Privacy Policy
 
-Last Updated: [Insert Date]
+Last updated: October 28, 2024
 
-This Privacy Policy outlines how StravaSheetSync collects, uses, and protects user data.
-1. Data Collection
+StravaSheetSync respects your privacy and is committed to protecting any data you provide.
+1. Data Collection and Use
 
-StravaSheetSync collects and processes user data to provide the Service, including:
+    Strava Activity Data: The Service uses the Strava API with read permissions to access activity data. This data is processed on our servers and synced to a Google Spreadsheet you specify.
+    Google Spreadsheet Data: The Service uses the Google API with read and write permissions to edit a user-defined Google Spreadsheet and add processed activity data.
 
-    Strava and Google API keys: Stored to authenticate users and access the APIs.
-    Activity data from Strava: Pulled from the Strava API to process and add to your Google Spreadsheet.
+2. Data Storage
 
-No identifiable user data will be permanently stored on our servers. Any anonymous user data collected is solely for the purpose of improving the website.
-2. Data Processing and Storage
+    API Keys: Strava and Google API keys are securely stored to authenticate users and access the APIs.
+    Identifiable Data: No identifiable user data is stored permanently on our servers.
+    Anonymous Data: Non-identifiable, anonymized data may be logged for the purpose of improving the Service. This data will not be shared with third parties under any circumstances.
 
-All data processing occurs on StravaSheetSync servers. User data is processed but not permanently stored. Identifiable user data is only temporarily stored for processing purposes and is removed once processing is complete.
-3. Anonymous Data Logging
+3. Data Deletion
 
-StravaSheetSync may log anonymous user data, such as non-identifiable activity patterns, exclusively to improve the Service. This data will not be shared with third parties under any circumstances.
-4. Data Deletion and Access Requests
-
-You can delete your account at any time through the StravaSheetSync website, which will remove all associated data from our servers. You may also email ian.turner.burgess@gmail.com with your account information to request data removal or review. All requests will be honored within one month.
-5. Changes to Privacy Policy
-
-This Privacy Policy may be updated periodically. Any changes will be posted on this page, and continued use of StravaSheetSync indicates acceptance of the updated Privacy Policy.
+    You can delete your account anytime, which will remove all data associated with your account.
+    Alternatively, you can email ian.turner.burgess@gmail.com with relevant account information to request data removal or access. Requests will be completed within 1 month.

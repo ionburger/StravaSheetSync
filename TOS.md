@@ -1,28 +1,26 @@
-Terms of Service
+StravaSheetSync Terms of Service
 
-Last Updated: 10/27/2024
+Last updated: October 28, 2024
 
-Welcome to StravaSheetSync! By using this website (the "Service"), you agree to comply with and be bound by these Terms of Service. Please read them carefully.
-1. Acceptance of Terms
+Welcome to StravaSheetSync (the "Service"). This Service is provided by Ian Burgess and is made available at stravasheetsync.ionburger.me.
 
-By accessing or using StravaSheetSync, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you may not use the Service.
-2. Description of Service
+By using StravaSheetSync, you agree to comply with and be bound by the following terms. If you do not agree to these terms, please do not use this Service.
+1. Use of the Service
 
-StravaSheetSync is a web-based service provided by Ian Burgess that integrates with the Strava and Google APIs. It allows users to pull activity data from Strava, process it, and add it to a user-defined Google Spreadsheet.
-3. API Permissions and Data Access
+    StravaSheetSync allows users to sync their Strava activity data with a user-defined Google spreadsheet.
+    The Service uses the Strava API (with read permissions) to access your activity data and the Google API (with read and write permissions) to edit your Google Spreadsheet.
+    Strava and Google API keys are stored by StravaSheetSync as a method of user identification and to access these APIs on behalf of the user.
 
-StravaSheetSync requires access to:
+2. User Responsibilities
 
-    Strava API: With read permissions to access activity data from your Strava account.
-    Google API: With read and write permissions to edit your Google Spreadsheet and add processed data.
+    You are responsible for providing valid Strava and Google API keys to use the Service.
+    You are responsible for maintaining the confidentiality of your API keys and account details.
 
-By authorizing these APIs, you allow StravaSheetSync to access your data as described.
-4. User Account and API Keys
+3. Account Termination
 
-StravaSheetSync stores user-provided Strava and Google API keys as a method of identifying users and accessing the APIs. These keys are securely stored for authentication purposes.
-5. Deleting Your Account
+    You may delete your account at any time through the website, which will result in the removal of all your data from our servers.
+    You can also request deletion or access to your data by emailing ian.turner.burgess@gmail.com with relevant account information. Requests will be honored within 1 month.
 
-You may delete your account at any time through the StravaSheetSync website. This will remove all data associated with your account from our servers. If you have any questions or issues with account deletion, you may email ian.turner.burgess@gmail.com with relevant account information for assistance.
-6. Changes to Terms
+4. Open Source
 
-Ian Burgess reserves the right to modify these Terms at any time. Changes will be effective upon posting on this page. Your continued use of the Service after any changes to the Terms constitutes acceptance of the revised Terms.
+    StravaSheetSync is Free and Open Source Software (FOSS) and is licensed under the AGPL version 3. The source code is available at github.com/ionburger/stravasheetsync.
