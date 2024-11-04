@@ -1,3 +1,0 @@
-recursive-include docs *
-recursive-include src/stravalib/tests/ *
-recursive-exclude examples *
