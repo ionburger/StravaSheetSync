@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
-from event import Event
-
+from event import event
+from stravalib import Client
+from log import debug
 
 app = Flask(__name__)
 
@@ -8,6 +9,7 @@ STRAVA_VERIFY_TOKEN = 'stravamoment'
 
 @app.route('/strava', methods=['GET', 'POST'])
 def webhook():
+    debug('Received webhook')
     if request.method == 'GET':
         verify_token = request.args.get('hub.verify_token')
         challenge = request.args.get('hub.challenge')
@@ -19,9 +21,8 @@ def webhook():
 
     if request.method == 'POST':
         data = request.json
-        print(f'Received event: {event}')
-        Event(data)
+        debug(type(data))
+        debug(f'Received event: {data}')
+        event(data)
+        debug('Event processed')
         return '', 200
-
-if __name__ == '__main__':
-    app.run(port=8080)

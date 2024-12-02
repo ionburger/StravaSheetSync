@@ -2,5 +2,6 @@ FROM python:3.13
 WORKDIR /code
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-COPY ../webhook/ .
-CMD [ "python", "./main.py" ] 
+COPY webhook/ .
+EXPOSE 8080
+CMD [ "granian", "--host", "0.0.0.0", "--port", "8080", "--interface", "wsgi", "main:app"] 

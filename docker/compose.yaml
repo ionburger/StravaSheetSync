@@ -1,8 +1,6 @@
-version: '3.8'
-
 services:
   mongodb:
-    image: mongo:4.4
+    image: mongo:latest
     restart: unless-stopped
     ports:
       - 27017:27017
@@ -16,9 +14,16 @@ services:
     restart: unless-stopped
     ports:
       - 8080:8080
+    expose:
+      - 8080:8080
     environment:
       MONGO_USER: ${MONGO_USER}
       MONGO_PASS: ${MONGO_PASS}
       MONGO_HOST: mongodb
       MONGO_PORT: 27017
-
+      STRAVA_ID: ${STRAVA_ID}
+      STRAVA_SECRET: ${STRAVA_SECRET}
+      GOOGLE_ID: ${GOOGLE_ID}
+      GOOGLE_SECRET: ${GOOGLE_SECRET}
+    volumes:
+      - ../webhook:/code

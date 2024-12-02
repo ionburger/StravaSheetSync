@@ -2,3 +2,4 @@ Flask
 stravalib
 python-dotenv
 pymongo
+granian
