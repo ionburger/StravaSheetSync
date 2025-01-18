@@ -44,7 +44,7 @@ def logged_in():
         return render_template(
             "login_results.html",
             athlete=strava_athlete,
-            access_token=access_token,
+            access_token=access_token
         )
 
 
